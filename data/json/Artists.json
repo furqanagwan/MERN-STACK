@@ -1,0 +1,44 @@
+{
+  "Artists": [
+    {
+      "firstName": "Drake",
+      "lastName": "Graham",
+      "nationality": "Canadian",
+      "albums": [],
+      "artist name": "Drake",
+      "group": false
+    },
+    {
+      "firstName": "Jahron",
+      "lastName": "Brathwaite",
+      "nationality": "Canadian",
+      "albums": [],
+      "artist name": "PARTYNEXTDOOR",
+      "group": false
+    },
+    {
+      "firstArtistName": "Majid Al Maskati",
+      "secondArtistName": "Jordan Ullman",
+      "nationality": "Canadian",
+      "group": true,
+      "albums": [],
+      "group name": "Majid Jordan"
+    },
+    {
+      "firstName": "Denzel",
+      "lastName": "Spencer",
+      "artist name": "Roy Woods",
+      "nationality": "Canadian",
+      "group": false,
+      "albums": []
+    },
+    {
+      "firstArtistName": "Daniel Daley",
+      "secondArtistName": "Nineteen85",
+      "nationality": "Canadian",
+      "group": true,
+      "albums": [],
+      "group name": "dvsn"
+    }
+  ]
+}
