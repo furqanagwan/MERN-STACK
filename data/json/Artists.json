@@ -4,7 +4,58 @@
       "firstName": "Drake",
       "lastName": "Graham",
       "nationality": "Canadian",
-      "albums": [],
+      "albums": [
+        {
+          "Name":"So Far Gone",
+          "Released": 2009,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Thank Me Later",
+          "Released": 2010,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Take Care",
+          "Released": 2011,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Nothing Was the Same",
+          "Released": 2013,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"If You're Reading This It's Too Late",
+          "Released": 2015,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"What a Time to Be Alive",
+          "Released": 2015,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Views",
+          "Released": 2016,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"More Life",
+          "Released": 2017,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Scorpion",
+          "Released": 2018,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Care Package",
+          "Released": 2019,
+          "Genre": "Rap"
+        }
+        ],
       "artist name": "Drake",
       "group": false
     },
@@ -12,7 +63,28 @@
       "firstName": "Jahron",
       "lastName": "Brathwaite",
       "nationality": "Canadian",
-      "albums": [],
+      "albums": [
+        {
+          "Name":"PARTYNEXTDOOR",
+          "Released": 2013,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"PARTYNEXTDOOR TWO",
+          "Released": 2014,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"PARTYNEXTDOOR 3 (P3)",
+          "Released": 2016,
+          "Genre": "Rap"
+        },
+        {
+          "Name":"Seven Days",
+          "Released": 2017,
+          "Genre": "Rap"
+        }
+        ],
       "artist name": "PARTYNEXTDOOR",
       "group": false
     },
