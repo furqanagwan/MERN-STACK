@@ -9,7 +9,6 @@
   "author": "Furqan Agwan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "express-graceful-shutdown": "^1.1.3"
+    "express": "^4.17.1"
   }
 }
