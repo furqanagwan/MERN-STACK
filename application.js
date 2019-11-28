@@ -12,9 +12,13 @@ let StatusCodes = {
   Server_error: 500
 }
 
-let RequestType = {GET: "GET", POST: "POST"}
-
-
+let RequestType = {
+GET: "GET",
+POST: "POST",
+HEAD: "HEAD",
+DELETE: "DELETE",
+OPTIONS: "OPTIONS"
+}
 
 //Define local JSON data here
 var OctobersVeryOwn = require('./Backend/JSON/Artists.json');
@@ -27,12 +31,12 @@ const artists = "/artists";
 
 //Define middleware here
 //Re route any incoming GET request to root to show a static webpage
-application.use(root, express.static(__dirname + '/Frontend/JS/index.js'))
+application.use(root, express.static(__dirname + '/Frontend/react_application/src/index.js'))
 
 //express all fucntion for all types of request types
 application.all(root, (request, response) => {
   if (response.statusCode == StatusCodes.Sucess){
-    response.sendFile(__dirname + '/Frontend/JS/index.js');
+    response.sendFile(__dirname + '/Frontend/react_application/src/index.js');
   }
 });
 
