@@ -14,8 +14,10 @@ let StatusCodes = {
 
 let RequestType = {GET: "GET", POST: "POST"}
 
+
+
 //Define local JSON data here
-var OctobersVeryOwn = require('./data/json/Artists.json');
+var OctobersVeryOwn = require('./Backend/JSON/Artists.json');
 //Define your port here
 let PORT = process.env.PORT || 3000;
 
@@ -25,12 +27,12 @@ const artists = "/artists";
 
 //Define middleware here
 //Re route any incoming GET request to root to show a static webpage
-application.use(root, express.static(__dirname + '/data/html/index.html'))
+application.use(root, express.static(__dirname + '/Frontend/JS/index.js'))
 
 //express all fucntion for all types of request types
 application.all(root, (request, response) => {
   if (response.statusCode == StatusCodes.Sucess){
-    response.sendFile(__dirname + '/data/html/index.html');
+    response.sendFile(__dirname + '/Frontend/JS/index.js');
   }
 });
 

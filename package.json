@@ -1,8 +1,8 @@
 {
-  "name": "restapi",
+  "name": "MERN-STACK",
   "version": "1.0.0",
   "description": "MERN STACK TEMPLATE, USE THIS FOR PRODUCTION PURPOSES",
-  "main": "index.js",
+  "main": "application.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +11,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.3.5",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^3.2.0"
   }
 }
