@@ -25,12 +25,12 @@ const artists = "/artists";
 
 //Define middleware here
 //Re route any incoming GET request to root to show a static webpage
-application.use(root, express.static(__dirname + '/data/html/testHTML.html'))
+application.use(root, express.static(__dirname + '/data/html/index.html'))
 
 //express all fucntion for all types of request types
 application.all(root, (request, response) => {
   if (response.statusCode == StatusCodes.Sucess){
-    response.sendFile(__dirname + '/data/html/testHTML.html');
+    response.sendFile(__dirname + '/data/html/index.html');
   }
 });
 

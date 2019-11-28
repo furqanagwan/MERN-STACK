@@ -9,6 +9,8 @@
   "author": "Furqan Agwan",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "angular": "^1.7.9",
+    "express": "^4.17.1",
+    "mongodb": "^3.3.5"
   }
 }
