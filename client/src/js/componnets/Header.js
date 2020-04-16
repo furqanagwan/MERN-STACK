@@ -1,6 +1,6 @@
 import React from "react";
-import Swift from '../../img/Swift.png';
-import Java from '../../img/Java.png';
+import Swift from '../../assests/img/Swift.png';
+import Java from '../../assests/img/Java.png';
 
 export default class Header extends React.Component {
   render() {

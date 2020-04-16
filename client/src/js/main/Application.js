@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../componnets/Header.js";
 import Avatar from "../componnets/Avatar.js";
 import Title from "../componnets/Text.js";
-import "../../css/index.css";
+import "../../assests/css/index.css";
 
 export default function App() {
     return (
