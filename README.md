@@ -14,11 +14,13 @@ Software that you need to install. Use the commands below to install these.
 -   [MongoDB](https://docs.mongodb.com/manual/installation/)
 -   [Webpack](https://www.npmjs.com/package/webpack)
 -   [Nodemon](https://nodemon.io/)
+-   [Synk](https://snyk.io/)
 
 ```
 npm install -g mongodb
 npm install -g webpack
 npm install -g nodemon
+npm install -g snyk
 ```
 
 ## Getting Started
@@ -33,13 +35,13 @@ cd documents/code
 Now clone the project into that directory. If it doesn't work, make sure you have authorization to access the repo.
 
 ```
-git clone https://github.com/svdorn/full-stack.git
+git clone https://github.com/furqanagwan/MERN-STACK.git
 ```
 
 Now navigate into the project and install all the dependencies.
 
 ```
-cd full-stack
+cd MERN-STACK
 npm install
 ```
 
