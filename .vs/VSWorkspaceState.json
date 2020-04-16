@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\client",
-    "\\client\\src",
-    "\\client\\src\\JS",
-    "\\client\\src\\JS\\componnets"
+    "\\client\\src"
   ],
-  "SelectedNode": "\\client\\src\\JS\\componnets\\Avatar.js",
+  "SelectedNode": "\\client\\package.json",
   "PreviewInSolutionExplorer": false
 }
